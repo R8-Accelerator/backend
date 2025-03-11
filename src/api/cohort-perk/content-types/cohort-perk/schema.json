@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cohort_perks",
+  "info": {
+    "singularName": "cohort-perk",
+    "pluralName": "cohort-perks",
+    "displayName": "Cohort perk",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "activationCode": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": false
+    },
+    "cohorts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::cohort.cohort",
+      "inversedBy": "cohort_perks"
+    },
+    "accelerator": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::accelerator.accelerator",
+      "inversedBy": "cohort_perks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "discountType": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::pitch-rehearsal.pitch-rehearsal",
+  "value": {
+    "uid": "api::pitch-rehearsal.pitch-rehearsal",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "notes",
+      "defaultSortBy": "notes",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "notes": {
+        "edit": {
+          "label": "notes",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "notes",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "date": {
+        "edit": {
+          "label": "date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "url": {
+        "edit": {
+          "label": "url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mentor": {
+        "edit": {
+          "label": "mentor",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "mentor",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "moderator": {
+        "edit": {
+          "label": "moderator",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "moderator",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "startup": {
+        "edit": {
+          "label": "startup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "startup",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "problemSolutionScore": {
+        "edit": {
+          "label": "problemSolutionScore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "problemSolutionScore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "technicalScore": {
+        "edit": {
+          "label": "technicalScore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "technicalScore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "businessModelStrategyScore": {
+        "edit": {
+          "label": "businessModelStrategyScore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "businessModelStrategyScore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "entrepreneurTeamScore": {
+        "edit": {
+          "label": "entrepreneurTeamScore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "entrepreneurTeamScore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "preparationTeamScore": {
+        "edit": {
+          "label": "preparationTeamScore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "preparationTeamScore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "financialsScore": {
+        "edit": {
+          "label": "financialsScore",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "financialsScore",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cohort": {
+        "edit": {
+          "label": "cohort",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "cohort",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "notes",
+        "date",
+        "url"
+      ],
+      "edit": [
+        [
+          {
+            "name": "notes",
+            "size": 6
+          },
+          {
+            "name": "date",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "url",
+            "size": 6
+          },
+          {
+            "name": "mentor",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "moderator",
+            "size": 6
+          },
+          {
+            "name": "problemSolutionScore",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "startup",
+            "size": 6
+          },
+          {
+            "name": "technicalScore",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "entrepreneurTeamScore",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "financialsScore",
+            "size": 4
+          },
+          {
+            "name": "cohort",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "preparationTeamScore",
+            "size": 4
+          },
+          {
+            "name": "businessModelStrategyScore",
+            "size": 4
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

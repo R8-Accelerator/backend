@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "startup_cohorts",
+  "info": {
+    "singularName": "startup-cohort",
+    "pluralName": "startup-cohorts",
+    "displayName": "Startup-Cohort"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cohort": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "startup_cohorts"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "startup_cohorts"
+    }
+  }
+}

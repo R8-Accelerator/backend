@@ -1,0 +1,294 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::template.template",
+  "value": {
+    "uid": "api::template.template",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cohort": {
+        "edit": {
+          "label": "cohort",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "cohort",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "startups": {
+        "edit": {
+          "label": "startups",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "startups",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "partners": {
+        "edit": {
+          "label": "partners",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "partners",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "pitching_practice": {
+        "edit": {
+          "label": "pitching_practice",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "pitching_practice",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mentors": {
+        "edit": {
+          "label": "mentors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mentors",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "investors": {
+        "edit": {
+          "label": "investors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "investors",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "activities": {
+        "edit": {
+          "label": "activities",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "activities",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cohort_perks": {
+        "edit": {
+          "label": "cohort_perks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cohort_perks",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "community_chest": {
+        "edit": {
+          "label": "community_chest",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "community_chest",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "forms": {
+        "edit": {
+          "label": "forms",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "forms",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accelerator": {
+        "edit": {
+          "label": "accelerator",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "accelerator",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "cohort",
+        "startups",
+        "partners"
+      ],
+      "edit": [
+        [
+          {
+            "name": "cohort",
+            "size": 6
+          },
+          {
+            "name": "startups",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "partners",
+            "size": 4
+          },
+          {
+            "name": "pitching_practice",
+            "size": 4
+          },
+          {
+            "name": "mentors",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "investors",
+            "size": 4
+          },
+          {
+            "name": "activities",
+            "size": 4
+          },
+          {
+            "name": "cohort_perks",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "community_chest",
+            "size": 4
+          },
+          {
+            "name": "forms",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "accelerator",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

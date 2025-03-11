@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investors",
+  "info": {
+    "singularName": "investor",
+    "pluralName": "investors",
+    "displayName": "Investor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "accelerator": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::accelerator.accelerator",
+      "inversedBy": "investors"
+    },
+    "investor_startups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-startup.investor-startup",
+      "mappedBy": "investor"
+    },
+    "cohorts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::cohort.cohort",
+      "inversedBy": "investors"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investor_startups",
+  "info": {
+    "singularName": "investor-startup",
+    "pluralName": "investor-startups",
+    "displayName": "Investor-Startup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "investor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::investor.investor",
+      "inversedBy": "investor_startups"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "investor_startups"
+    }
+  }
+}

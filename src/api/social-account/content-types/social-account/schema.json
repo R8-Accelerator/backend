@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_accounts",
+  "info": {
+    "singularName": "social-account",
+    "pluralName": "social-accounts",
+    "displayName": "Social Account"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Twitter",
+        "Facebook",
+        "Slack",
+        "Linkedin",
+        "Google"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

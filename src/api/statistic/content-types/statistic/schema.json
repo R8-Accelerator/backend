@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "Statistics",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "statistics"
+    },
+    "cohort": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "statistics"
+    },
+    "date": {
+      "type": "string"
+    },
+    "maturity_transition": {
+      "type": "string"
+    },
+    "clients": {
+      "type": "integer"
+    },
+    "employees": {
+      "type": "integer"
+    },
+    "funding": {
+      "type": "decimal"
+    },
+    "revenue": {
+      "type": "decimal"
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "geographic": {
+      "type": "string"
+    }
+  }
+}

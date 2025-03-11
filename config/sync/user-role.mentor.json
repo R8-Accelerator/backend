@@ -1,0 +1,6 @@
+{
+  "name": "Mentor",
+  "description": "User that can only check mentor relation info",
+  "type": "mentor",
+  "permissions": []
+}

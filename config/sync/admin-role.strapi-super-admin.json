@@ -1,0 +1,2176 @@
+{
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::accelerator-form.accelerator-form",
+      "properties": {
+        "fields": [
+          "accelerator",
+          "form",
+          "name",
+          "uuid"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::accelerator-form.accelerator-form",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::accelerator-form.accelerator-form",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::accelerator-form.accelerator-form",
+      "properties": {
+        "fields": [
+          "accelerator",
+          "form",
+          "name",
+          "uuid"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::accelerator-form.accelerator-form",
+      "properties": {
+        "fields": [
+          "accelerator",
+          "form",
+          "name",
+          "uuid"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::accelerator-invite-code.accelerator-invite-code",
+      "properties": {
+        "fields": [
+          "acceleratorid",
+          "invitecode",
+          "accelerator"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::accelerator-invite-code.accelerator-invite-code",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::accelerator-invite-code.accelerator-invite-code",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::accelerator-invite-code.accelerator-invite-code",
+      "properties": {
+        "fields": [
+          "acceleratorid",
+          "invitecode",
+          "accelerator"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::accelerator-invite-code.accelerator-invite-code",
+      "properties": {
+        "fields": [
+          "acceleratorid",
+          "invitecode",
+          "accelerator"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::accelerator-join-code.accelerator-join-code",
+      "properties": {
+        "fields": [
+          "accelerator",
+          "joincode",
+          "UUID",
+          "accessType",
+          "email"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::accelerator-join-code.accelerator-join-code",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::accelerator-join-code.accelerator-join-code",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::accelerator-join-code.accelerator-join-code",
+      "properties": {
+        "fields": [
+          "accelerator",
+          "joincode",
+          "UUID",
+          "accessType",
+          "email"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::accelerator-join-code.accelerator-join-code",
+      "properties": {
+        "fields": [
+          "accelerator",
+          "joincode",
+          "UUID",
+          "accessType",
+          "email"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::accelerator.accelerator",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "email",
+          "phone",
+          "overview",
+          "benefits",
+          "news",
+          "perks",
+          "industry",
+          "stage",
+          "location",
+          "alumni",
+          "logo",
+          "cover",
+          "uuid",
+          "mentors",
+          "cohorts",
+          "owner",
+          "team",
+          "partner",
+          "partners",
+          "investors",
+          "cohort_perks",
+          "default_application_form",
+          "members",
+          "templates",
+          "accelerator_invite_code",
+          "accelerator_forms",
+          "accelerator_join_code"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::accelerator.accelerator",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::accelerator.accelerator",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::accelerator.accelerator",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "email",
+          "phone",
+          "overview",
+          "benefits",
+          "news",
+          "perks",
+          "industry",
+          "stage",
+          "location",
+          "alumni",
+          "logo",
+          "cover",
+          "uuid",
+          "mentors",
+          "cohorts",
+          "owner",
+          "team",
+          "partner",
+          "partners",
+          "investors",
+          "cohort_perks",
+          "default_application_form",
+          "members",
+          "templates",
+          "accelerator_invite_code",
+          "accelerator_forms",
+          "accelerator_join_code"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::accelerator.accelerator",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "email",
+          "phone",
+          "overview",
+          "benefits",
+          "news",
+          "perks",
+          "industry",
+          "stage",
+          "location",
+          "alumni",
+          "logo",
+          "cover",
+          "uuid",
+          "mentors",
+          "cohorts",
+          "owner",
+          "team",
+          "partner",
+          "partners",
+          "investors",
+          "cohort_perks",
+          "default_application_form",
+          "members",
+          "templates",
+          "accelerator_invite_code",
+          "accelerator_forms",
+          "accelerator_join_code"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::activity.activity",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "startup",
+          "title",
+          "type",
+          "description",
+          "speakers",
+          "location",
+          "attendees",
+          "tag",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::activity.activity",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::activity.activity",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::activity.activity",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "startup",
+          "title",
+          "type",
+          "description",
+          "speakers",
+          "location",
+          "attendees",
+          "tag",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::activity.activity",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "startup",
+          "title",
+          "type",
+          "description",
+          "speakers",
+          "location",
+          "attendees",
+          "tag",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::cohort-application.cohort-application",
+      "properties": {
+        "fields": [
+          "startup_response",
+          "application_status",
+          "cohort",
+          "startup",
+          "files"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::cohort-application.cohort-application",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::cohort-application.cohort-application",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cohort-application.cohort-application",
+      "properties": {
+        "fields": [
+          "startup_response",
+          "application_status",
+          "cohort",
+          "startup",
+          "files"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::cohort-application.cohort-application",
+      "properties": {
+        "fields": [
+          "startup_response",
+          "application_status",
+          "cohort",
+          "startup",
+          "files"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::cohort-form.cohort-form",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startup",
+          "status",
+          "response",
+          "files",
+          "uuid"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::cohort-form.cohort-form",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::cohort-form.cohort-form",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cohort-form.cohort-form",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startup",
+          "status",
+          "response",
+          "files",
+          "uuid"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::cohort-form.cohort-form",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startup",
+          "status",
+          "response",
+          "files",
+          "uuid"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::cohort-perk.cohort-perk",
+      "properties": {
+        "fields": [
+          "companyName",
+          "description",
+          "activationCode",
+          "status",
+          "cohorts",
+          "accelerator",
+          "image",
+          "discountType"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::cohort-perk.cohort-perk",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::cohort-perk.cohort-perk",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cohort-perk.cohort-perk",
+      "properties": {
+        "fields": [
+          "companyName",
+          "description",
+          "activationCode",
+          "status",
+          "cohorts",
+          "accelerator",
+          "image",
+          "discountType"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::cohort-perk.cohort-perk",
+      "properties": {
+        "fields": [
+          "companyName",
+          "description",
+          "activationCode",
+          "status",
+          "cohorts",
+          "accelerator",
+          "image",
+          "discountType"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::cohort.cohort",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "acceptingApplication",
+          "deadline",
+          "mentorship_sessions",
+          "office_hours",
+          "uuid",
+          "mentors",
+          "invite_code",
+          "accelerator",
+          "archived",
+          "image",
+          "sector",
+          "startdate",
+          "enddate",
+          "partners",
+          "investors",
+          "activities",
+          "expenses",
+          "pitch_rehearsals",
+          "cohort_perks",
+          "application_form",
+          "cohort_applications",
+          "startup_cohorts",
+          "template",
+          "resources",
+          "cohort_forms",
+          "stage",
+          "statistics"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::cohort.cohort",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::cohort.cohort",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cohort.cohort",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "acceptingApplication",
+          "deadline",
+          "mentorship_sessions",
+          "office_hours",
+          "uuid",
+          "mentors",
+          "invite_code",
+          "accelerator",
+          "archived",
+          "image",
+          "sector",
+          "startdate",
+          "enddate",
+          "partners",
+          "investors",
+          "activities",
+          "expenses",
+          "pitch_rehearsals",
+          "cohort_perks",
+          "application_form",
+          "cohort_applications",
+          "startup_cohorts",
+          "template",
+          "resources",
+          "cohort_forms",
+          "stage",
+          "statistics"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::cohort.cohort",
+      "properties": {
+        "fields": [
+          "name",
+          "description",
+          "acceptingApplication",
+          "deadline",
+          "mentorship_sessions",
+          "office_hours",
+          "uuid",
+          "mentors",
+          "invite_code",
+          "accelerator",
+          "archived",
+          "image",
+          "sector",
+          "startdate",
+          "enddate",
+          "partners",
+          "investors",
+          "activities",
+          "expenses",
+          "pitch_rehearsals",
+          "cohort_perks",
+          "application_form",
+          "cohort_applications",
+          "startup_cohorts",
+          "template",
+          "resources",
+          "cohort_forms",
+          "stage",
+          "statistics"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::expense.expense",
+      "properties": {
+        "fields": [
+          "title",
+          "category",
+          "date",
+          "amount",
+          "tax",
+          "notes",
+          "cohort",
+          "personResponsible",
+          "invoice",
+          "status"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::expense.expense",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::expense.expense",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::expense.expense",
+      "properties": {
+        "fields": [
+          "title",
+          "category",
+          "date",
+          "amount",
+          "tax",
+          "notes",
+          "cohort",
+          "personResponsible",
+          "invoice",
+          "status"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::expense.expense",
+      "properties": {
+        "fields": [
+          "title",
+          "category",
+          "date",
+          "amount",
+          "tax",
+          "notes",
+          "cohort",
+          "personResponsible",
+          "invoice",
+          "status"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::goal.goal",
+      "properties": {
+        "fields": [
+          "goal",
+          "description",
+          "comments",
+          "achieved",
+          "startup",
+          "accelerator",
+          "date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::goal.goal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::goal.goal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::goal.goal",
+      "properties": {
+        "fields": [
+          "goal",
+          "description",
+          "comments",
+          "achieved",
+          "startup",
+          "accelerator",
+          "date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::goal.goal",
+      "properties": {
+        "fields": [
+          "goal",
+          "description",
+          "comments",
+          "achieved",
+          "startup",
+          "accelerator",
+          "date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::investor-startup.investor-startup",
+      "properties": {
+        "fields": [
+          "date",
+          "notes",
+          "status",
+          "investor",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::investor-startup.investor-startup",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::investor-startup.investor-startup",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::investor-startup.investor-startup",
+      "properties": {
+        "fields": [
+          "date",
+          "notes",
+          "status",
+          "investor",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::investor-startup.investor-startup",
+      "properties": {
+        "fields": [
+          "date",
+          "notes",
+          "status",
+          "investor",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::investor.investor",
+      "properties": {
+        "fields": [
+          "name",
+          "logo",
+          "accelerator",
+          "investor_startups",
+          "cohorts",
+          "contactPerson",
+          "position",
+          "email",
+          "phone"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::investor.investor",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::investor.investor",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::investor.investor",
+      "properties": {
+        "fields": [
+          "name",
+          "logo",
+          "accelerator",
+          "investor_startups",
+          "cohorts",
+          "contactPerson",
+          "position",
+          "email",
+          "phone"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::investor.investor",
+      "properties": {
+        "fields": [
+          "name",
+          "logo",
+          "accelerator",
+          "investor_startups",
+          "cohorts",
+          "contactPerson",
+          "position",
+          "email",
+          "phone"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::invite-code.invite-code",
+      "properties": {
+        "fields": [
+          "code",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::invite-code.invite-code",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::invite-code.invite-code",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::invite-code.invite-code",
+      "properties": {
+        "fields": [
+          "code",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::invite-code.invite-code",
+      "properties": {
+        "fields": [
+          "code",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::mentorship-session.mentorship-session",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "notes",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::mentorship-session.mentorship-session",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::mentorship-session.mentorship-session",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::mentorship-session.mentorship-session",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "notes",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::mentorship-session.mentorship-session",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "notes",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::office-hour.office-hour",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "startup",
+          "notes"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::office-hour.office-hour",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::office-hour.office-hour",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::office-hour.office-hour",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "startup",
+          "notes"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::office-hour.office-hour",
+      "properties": {
+        "fields": [
+          "date",
+          "mentor",
+          "url",
+          "startup",
+          "notes"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::option.option",
+      "properties": {
+        "fields": [
+          "domain",
+          "admin_email",
+          "default_application_form"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::option.option",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::option.option",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::option.option",
+      "properties": {
+        "fields": [
+          "domain",
+          "admin_email",
+          "default_application_form"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::option.option",
+      "properties": {
+        "fields": [
+          "domain",
+          "admin_email",
+          "default_application_form"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::partner-startup.partner-startup",
+      "properties": {
+        "fields": [
+          "partner",
+          "date",
+          "notes",
+          "status",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::partner-startup.partner-startup",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::partner-startup.partner-startup",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::partner-startup.partner-startup",
+      "properties": {
+        "fields": [
+          "partner",
+          "date",
+          "notes",
+          "status",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::partner-startup.partner-startup",
+      "properties": {
+        "fields": [
+          "partner",
+          "date",
+          "notes",
+          "status",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::partner.partner",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "overview",
+          "location",
+          "logo",
+          "uuid",
+          "partner_startups",
+          "accelerator",
+          "cohorts",
+          "contactPerson",
+          "mentors",
+          "phone",
+          "email",
+          "position"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::partner.partner",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::partner.partner",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::partner.partner",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "overview",
+          "location",
+          "logo",
+          "uuid",
+          "partner_startups",
+          "accelerator",
+          "cohorts",
+          "contactPerson",
+          "mentors",
+          "phone",
+          "email",
+          "position"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::partner.partner",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "overview",
+          "location",
+          "logo",
+          "uuid",
+          "partner_startups",
+          "accelerator",
+          "cohorts",
+          "contactPerson",
+          "mentors",
+          "phone",
+          "email",
+          "position"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pitch-rehearsal.pitch-rehearsal",
+      "properties": {
+        "fields": [
+          "notes",
+          "date",
+          "url",
+          "mentor",
+          "moderator",
+          "startup",
+          "problemSolutionScore",
+          "technicalScore",
+          "businessModelStrategyScore",
+          "entrepreneurTeamScore",
+          "preparationTeamScore",
+          "financialsScore",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::pitch-rehearsal.pitch-rehearsal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::pitch-rehearsal.pitch-rehearsal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pitch-rehearsal.pitch-rehearsal",
+      "properties": {
+        "fields": [
+          "notes",
+          "date",
+          "url",
+          "mentor",
+          "moderator",
+          "startup",
+          "problemSolutionScore",
+          "technicalScore",
+          "businessModelStrategyScore",
+          "entrepreneurTeamScore",
+          "preparationTeamScore",
+          "financialsScore",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pitch-rehearsal.pitch-rehearsal",
+      "properties": {
+        "fields": [
+          "notes",
+          "date",
+          "url",
+          "mentor",
+          "moderator",
+          "startup",
+          "problemSolutionScore",
+          "technicalScore",
+          "businessModelStrategyScore",
+          "entrepreneurTeamScore",
+          "preparationTeamScore",
+          "financialsScore",
+          "cohort"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::resource.resource",
+      "properties": {
+        "fields": [
+          "title",
+          "content",
+          "cohorts",
+          "files"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::resource.resource",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::resource.resource",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::resource.resource",
+      "properties": {
+        "fields": [
+          "title",
+          "content",
+          "cohorts",
+          "files"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::resource.resource",
+      "properties": {
+        "fields": [
+          "title",
+          "content",
+          "cohorts",
+          "files"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::social-account.social-account",
+      "properties": {
+        "fields": [
+          "type",
+          "url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::social-account.social-account",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::social-account.social-account",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::social-account.social-account",
+      "properties": {
+        "fields": [
+          "type",
+          "url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::social-account.social-account",
+      "properties": {
+        "fields": [
+          "type",
+          "url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::startup-cohort.startup-cohort",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::startup-cohort.startup-cohort",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::startup-cohort.startup-cohort",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::startup-cohort.startup-cohort",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::startup-cohort.startup-cohort",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startup"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::startup.startup",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "overview",
+          "industry",
+          "stage",
+          "location",
+          "members",
+          "owner",
+          "logo",
+          "cover",
+          "uuid",
+          "goals",
+          "achievements",
+          "accelerator_goals",
+          "office_hours",
+          "pitch_rehearsals",
+          "activities",
+          "partner_startups",
+          "investor_startups",
+          "mentorship_sessions",
+          "pitchDeck",
+          "financials",
+          "onePager",
+          "cohort_applications",
+          "startup_cohorts",
+          "cohort_forms",
+          "statistics"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::startup.startup",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::startup.startup",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::startup.startup",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "overview",
+          "industry",
+          "stage",
+          "location",
+          "members",
+          "owner",
+          "logo",
+          "cover",
+          "uuid",
+          "goals",
+          "achievements",
+          "accelerator_goals",
+          "office_hours",
+          "pitch_rehearsals",
+          "activities",
+          "partner_startups",
+          "investor_startups",
+          "mentorship_sessions",
+          "pitchDeck",
+          "financials",
+          "onePager",
+          "cohort_applications",
+          "startup_cohorts",
+          "cohort_forms",
+          "statistics"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::startup.startup",
+      "properties": {
+        "fields": [
+          "name",
+          "url",
+          "overview",
+          "industry",
+          "stage",
+          "location",
+          "members",
+          "owner",
+          "logo",
+          "cover",
+          "uuid",
+          "goals",
+          "achievements",
+          "accelerator_goals",
+          "office_hours",
+          "pitch_rehearsals",
+          "activities",
+          "partner_startups",
+          "investor_startups",
+          "mentorship_sessions",
+          "pitchDeck",
+          "financials",
+          "onePager",
+          "cohort_applications",
+          "startup_cohorts",
+          "cohort_forms",
+          "statistics"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "startup",
+          "cohort",
+          "date",
+          "maturity_transition",
+          "clients",
+          "employees",
+          "funding",
+          "revenue",
+          "cost",
+          "geographic"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::statistic.statistic",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::statistic.statistic",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "startup",
+          "cohort",
+          "date",
+          "maturity_transition",
+          "clients",
+          "employees",
+          "funding",
+          "revenue",
+          "cost",
+          "geographic"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::statistic.statistic",
+      "properties": {
+        "fields": [
+          "startup",
+          "cohort",
+          "date",
+          "maturity_transition",
+          "clients",
+          "employees",
+          "funding",
+          "revenue",
+          "cost",
+          "geographic"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::template.template",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startups",
+          "partners",
+          "pitching_practice",
+          "mentors",
+          "investors",
+          "activities",
+          "cohort_perks",
+          "community_chest",
+          "forms",
+          "name",
+          "accelerator"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::template.template",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::template.template",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::template.template",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startups",
+          "partners",
+          "pitching_practice",
+          "mentors",
+          "investors",
+          "activities",
+          "cohort_perks",
+          "community_chest",
+          "forms",
+          "name",
+          "accelerator"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::template.template",
+      "properties": {
+        "fields": [
+          "cohort",
+          "startups",
+          "partners",
+          "pitching_practice",
+          "mentors",
+          "investors",
+          "activities",
+          "cohort_perks",
+          "community_chest",
+          "forms",
+          "name",
+          "accelerator"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.install",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.uninstall",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.collection-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.components.configure-layout",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role",
+          "mentorship_sessions",
+          "office_hours",
+          "activities",
+          "picture",
+          "firstName",
+          "lastName",
+          "startups",
+          "phoneNumber",
+          "cohorts",
+          "title",
+          "organization",
+          "description",
+          "favorite",
+          "department",
+          "location",
+          "addressLine",
+          "addressLine2",
+          "zipCode",
+          "social_accounts",
+          "cover",
+          "city",
+          "state",
+          "accelerator",
+          "memberOf",
+          "mentorOf",
+          "accelerator_partner",
+          "pitch_rehearsals",
+          "partners",
+          "accessType"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role",
+          "mentorship_sessions",
+          "office_hours",
+          "activities",
+          "picture",
+          "firstName",
+          "lastName",
+          "startups",
+          "phoneNumber",
+          "cohorts",
+          "title",
+          "organization",
+          "description",
+          "favorite",
+          "department",
+          "location",
+          "addressLine",
+          "addressLine2",
+          "zipCode",
+          "social_accounts",
+          "cover",
+          "city",
+          "state",
+          "accelerator",
+          "memberOf",
+          "mentorOf",
+          "accelerator_partner",
+          "pitch_rehearsals",
+          "partners",
+          "accessType"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role",
+          "mentorship_sessions",
+          "office_hours",
+          "activities",
+          "picture",
+          "firstName",
+          "lastName",
+          "startups",
+          "phoneNumber",
+          "cohorts",
+          "title",
+          "organization",
+          "description",
+          "favorite",
+          "department",
+          "location",
+          "addressLine",
+          "addressLine2",
+          "zipCode",
+          "social_accounts",
+          "cover",
+          "city",
+          "state",
+          "accelerator",
+          "memberOf",
+          "mentorOf",
+          "accelerator_partner",
+          "pitch_rehearsals",
+          "partners",
+          "accessType"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.single-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-type-builder.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::email.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

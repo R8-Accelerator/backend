@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentorship_sessions",
+  "info": {
+    "singularName": "mentorship-session",
+    "pluralName": "mentorship-sessions",
+    "displayName": "Mentorship Session",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "mentor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "mentorship_sessions"
+    },
+    "url": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "mentorship_sessions"
+    }
+  }
+}

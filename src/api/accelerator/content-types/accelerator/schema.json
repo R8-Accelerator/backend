@@ -1,0 +1,366 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accelerators",
+  "info": {
+    "singularName": "accelerator",
+    "pluralName": "accelerators",
+    "displayName": "Accelerator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "phone": {
+      "type": "string",
+      "required": false
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "benefits": {
+      "type": "richtext"
+    },
+    "news": {
+      "type": "richtext"
+    },
+    "perks": {
+      "type": "richtext"
+    },
+    "industry": {
+      "type": "json"
+    },
+    "stage": {
+      "type": "enumeration",
+      "enum": [
+        "Pre-Seed Stage",
+        "Seed Stage",
+        "Early Stage",
+        "Growth Stage",
+        "Expansion phase",
+        "Exit phase"
+      ]
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Afghanistan",
+        "Albania",
+        "Algeria",
+        "Andorra",
+        "Angola",
+        "Antigua & Deps",
+        "Argentina",
+        "Armenia",
+        "Australia",
+        "Austria",
+        "Azerbaijan",
+        "Bahamas",
+        "Bahrain",
+        "Bangladesh",
+        "Barbados",
+        "Belarus",
+        "Belgium",
+        "Belize",
+        "Benin",
+        "Bhutan",
+        "Bolivia",
+        "Bosnia Herzegovina",
+        "Botswana",
+        "Brazil",
+        "Brunei",
+        "Bulgaria",
+        "Burkina",
+        "Burundi",
+        "Cambodia",
+        "Cameroon",
+        "Canada",
+        "Cape Verde",
+        "Central African Rep",
+        "Chad",
+        "Chile",
+        "China",
+        "Colombia",
+        "Comoros",
+        "Congo",
+        "Congo {Democratic Rep}",
+        "Costa Rica",
+        "Croatia",
+        "Cuba",
+        "Cyprus",
+        "Czech Republic",
+        "Denmark",
+        "Djibouti",
+        "Dominica",
+        "Dominican Republic",
+        "East Timor",
+        "Ecuador",
+        "Egypt",
+        "El Salvador",
+        "Equatorial Guinea",
+        "Eritrea",
+        "Estonia",
+        "Ethiopia",
+        "Fiji",
+        "Finland",
+        "France",
+        "Gabon",
+        "Gambia",
+        "Georgia",
+        "Germany",
+        "Ghana",
+        "Greece",
+        "Grenada",
+        "Guatemala",
+        "Guinea",
+        "Guinea-Bissau",
+        "Guyana",
+        "Haiti",
+        "Honduras",
+        "Hungary",
+        "Iceland",
+        "India",
+        "Indonesia",
+        "Iran",
+        "Iraq",
+        "Ireland {Republic}",
+        "Israel",
+        "Italy",
+        "Ivory Coast",
+        "Jamaica",
+        "Japan",
+        "Jordan",
+        "Kazakhstan",
+        "Kenya",
+        "Kiribati",
+        "Korea North",
+        "Korea South",
+        "Kosovo",
+        "Kuwait",
+        "Kyrgyzstan",
+        "Laos",
+        "Latvia",
+        "Lebanon",
+        "Lesotho",
+        "Liberia",
+        "Libya",
+        "Liechtenstein",
+        "Lithuania",
+        "Luxembourg",
+        "Macedonia",
+        "Madagascar",
+        "Malawi",
+        "Malaysia",
+        "Maldives",
+        "Mali",
+        "Malta",
+        "Marshall Islands",
+        "Mauritania",
+        "Mauritius",
+        "Mexico",
+        "Micronesia",
+        "Moldova",
+        "Monaco",
+        "Mongolia",
+        "Montenegro",
+        "Morocco",
+        "Mozambique",
+        "Myanmar, {Burma}",
+        "Namibia",
+        "Nauru",
+        "Nepal",
+        "Netherlands",
+        "New Zealand",
+        "Nicaragua",
+        "Niger",
+        "Nigeria",
+        "Norway",
+        "Oman",
+        "Pakistan",
+        "Palau",
+        "Panama",
+        "Papua New Guinea",
+        "Paraguay",
+        "Peru",
+        "Philippines",
+        "Poland",
+        "Portugal",
+        "Qatar",
+        "Romania",
+        "Russian Federation",
+        "Rwanda",
+        "St Kitts & Nevis",
+        "St Lucia",
+        "Saint Vincent & the Grenadines",
+        "Samoa",
+        "San Marino",
+        "Sao Tome & Principe",
+        "Saudi Arabia",
+        "Senegal",
+        "Serbia",
+        "Seychelles",
+        "Sierra Leone",
+        "Singapore",
+        "Slovakia",
+        "Slovenia",
+        "Solomon Islands",
+        "Somalia",
+        "South Africa",
+        "South Sudan",
+        "Spain",
+        "Sri Lanka",
+        "Sudan",
+        "Suriname",
+        "Swaziland",
+        "Sweden",
+        "Switzerland",
+        "Syria",
+        "Taiwan",
+        "Tajikistan",
+        "Tanzania",
+        "Thailand",
+        "Togo",
+        "Tonga",
+        "Trinidad & Tobago",
+        "Tunisia",
+        "Turkey",
+        "Turkmenistan",
+        "Tuvalu",
+        "Uganda",
+        "Ukraine",
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States",
+        "Uruguay",
+        "Uzbekistan",
+        "Vanuatu",
+        "Vatican City",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    "alumni": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "uuid": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "mentors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "mentorOf"
+    },
+    "cohorts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cohort.cohort"
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "accelerator"
+    },
+    "team": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "memberOf"
+    },
+    "partner": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "accelerator_partner"
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner",
+      "mappedBy": "accelerator"
+    },
+    "investors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor.investor",
+      "mappedBy": "accelerator"
+    },
+    "cohort_perks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cohort-perk.cohort-perk",
+      "mappedBy": "accelerator"
+    },
+    "default_application_form": {
+      "type": "json"
+    },
+    "members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "templates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::template.template",
+      "mappedBy": "accelerator"
+    },
+    "accelerator_invite_code": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::accelerator-invite-code.accelerator-invite-code",
+      "inversedBy": "accelerator"
+    },
+    "accelerator_forms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::accelerator-form.accelerator-form",
+      "mappedBy": "accelerator"
+    },
+    "accelerator_join_code": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::accelerator-join-code.accelerator-join-code",
+      "mappedBy": "accelerator"
+    }
+  }
+}

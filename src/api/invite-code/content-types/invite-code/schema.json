@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invite_codes",
+  "info": {
+    "singularName": "invite-code",
+    "pluralName": "invite-codes",
+    "displayName": "Invite code",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "cohort": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cohort.cohort",
+      "mappedBy": "invite_code"
+    }
+  }
+}

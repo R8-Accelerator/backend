@@ -1,0 +1,645 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::cohort.cohort",
+  "value": {
+    "uid": "api::cohort.cohort",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "acceptingApplication": {
+        "edit": {
+          "label": "acceptingApplication",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "acceptingApplication",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "deadline": {
+        "edit": {
+          "label": "deadline",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "deadline",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mentorship_sessions": {
+        "edit": {
+          "label": "mentorship_sessions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "url"
+        },
+        "list": {
+          "label": "mentorship_sessions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "office_hours": {
+        "edit": {
+          "label": "office_hours",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "url"
+        },
+        "list": {
+          "label": "office_hours",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "uuid": {
+        "edit": {
+          "label": "uuid",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "uuid",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mentors": {
+        "edit": {
+          "label": "mentors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "mentors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "invite_code": {
+        "edit": {
+          "label": "invite_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "code"
+        },
+        "list": {
+          "label": "invite_code",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accelerator": {
+        "edit": {
+          "label": "accelerator",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "accelerator",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "archived": {
+        "edit": {
+          "label": "archived",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "archived",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sector": {
+        "edit": {
+          "label": "sector",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sector",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "startdate": {
+        "edit": {
+          "label": "startdate",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "startdate",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "enddate": {
+        "edit": {
+          "label": "enddate",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "enddate",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "partners": {
+        "edit": {
+          "label": "partners",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "partners",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "investors": {
+        "edit": {
+          "label": "investors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "investors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "activities": {
+        "edit": {
+          "label": "activities",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "url"
+        },
+        "list": {
+          "label": "activities",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "expenses": {
+        "edit": {
+          "label": "expenses",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "expenses",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "pitch_rehearsals": {
+        "edit": {
+          "label": "pitch_rehearsals",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "notes"
+        },
+        "list": {
+          "label": "pitch_rehearsals",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohort_perks": {
+        "edit": {
+          "label": "cohort_perks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "companyName"
+        },
+        "list": {
+          "label": "cohort_perks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "application_form": {
+        "edit": {
+          "label": "application_form",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "application_form",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohort_applications": {
+        "edit": {
+          "label": "cohort_applications",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "cohort_applications",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "startup_cohorts": {
+        "edit": {
+          "label": "startup_cohorts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "startup_cohorts",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "template": {
+        "edit": {
+          "label": "template",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "template",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "resources": {
+        "edit": {
+          "label": "resources",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "resources",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohort_forms": {
+        "edit": {
+          "label": "cohort_forms",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "cohort_forms",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "stage": {
+        "edit": {
+          "label": "stage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "stage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "statistics": {
+        "edit": {
+          "label": "statistics",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "statistics",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "template",
+        "statistics"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "acceptingApplication",
+            "size": 4
+          },
+          {
+            "name": "deadline",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "office_hours",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "resources",
+            "size": 6
+          },
+          {
+            "name": "uuid",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mentors",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mentorship_sessions",
+            "size": 6
+          },
+          {
+            "name": "invite_code",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "accelerator",
+            "size": 6
+          },
+          {
+            "name": "archived",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 6
+          },
+          {
+            "name": "partners",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "investors",
+            "size": 6
+          },
+          {
+            "name": "activities",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cohort_perks",
+            "size": 6
+          },
+          {
+            "name": "expenses",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "pitch_rehearsals",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "sector",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "template",
+            "size": 6
+          },
+          {
+            "name": "startdate",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "enddate",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "application_form",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cohort_applications",
+            "size": 6
+          },
+          {
+            "name": "startup_cohorts",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cohort_forms",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "stage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "statistics",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

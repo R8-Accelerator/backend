@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pitch_rehearsals",
+  "info": {
+    "singularName": "pitch-rehearsal",
+    "pluralName": "pitch-rehearsals",
+    "displayName": "Pitch Rehearsal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notes": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "url": {
+      "type": "string"
+    },
+    "mentor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "pitch_rehearsals"
+    },
+    "moderator": {
+      "type": "string"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "pitch_rehearsals"
+    },
+    "problemSolutionScore": {
+      "type": "decimal"
+    },
+    "technicalScore": {
+      "type": "decimal"
+    },
+    "businessModelStrategyScore": {
+      "type": "decimal"
+    },
+    "entrepreneurTeamScore": {
+      "type": "decimal"
+    },
+    "preparationTeamScore": {
+      "type": "decimal"
+    },
+    "financialsScore": {
+      "type": "decimal"
+    },
+    "cohort": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "pitch_rehearsals"
+    }
+  }
+}

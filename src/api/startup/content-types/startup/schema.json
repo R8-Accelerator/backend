@@ -1,0 +1,381 @@
+{
+  "kind": "collectionType",
+  "collectionName": "startups",
+  "info": {
+    "singularName": "startup",
+    "pluralName": "startups",
+    "displayName": "Startup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "industry": {
+      "type": "json"
+    },
+    "stage": {
+      "type": "enumeration",
+      "enum": [
+        "Pre-Seed Stage",
+        "Seed Stage",
+        "Early Stage",
+        "Growth Stage",
+        "Expansion phase",
+        "Exit phase"
+      ]
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Afghanistan",
+        "Albania",
+        "Algeria",
+        "Andorra",
+        "Angola",
+        "Antigua & Deps",
+        "Argentina",
+        "Armenia",
+        "Australia",
+        "Austria",
+        "Azerbaijan",
+        "Bahamas",
+        "Bahrain",
+        "Bangladesh",
+        "Barbados",
+        "Belarus",
+        "Belgium",
+        "Belize",
+        "Benin",
+        "Bhutan",
+        "Bolivia",
+        "Bosnia Herzegovina",
+        "Botswana",
+        "Brazil",
+        "Brunei",
+        "Bulgaria",
+        "Burkina",
+        "Burundi",
+        "Cambodia",
+        "Cameroon",
+        "Canada",
+        "Cape Verde",
+        "Central African Rep",
+        "Chad",
+        "Chile",
+        "China",
+        "Colombia",
+        "Comoros",
+        "Congo",
+        "Congo {Democratic Rep}",
+        "Costa Rica",
+        "Croatia",
+        "Cuba",
+        "Cyprus",
+        "Czech Republic",
+        "Denmark",
+        "Djibouti",
+        "Dominica",
+        "Dominican Republic",
+        "East Timor",
+        "Ecuador",
+        "Egypt",
+        "El Salvador",
+        "Equatorial Guinea",
+        "Eritrea",
+        "Estonia",
+        "Ethiopia",
+        "Fiji",
+        "Finland",
+        "France",
+        "Gabon",
+        "Gambia",
+        "Georgia",
+        "Germany",
+        "Ghana",
+        "Greece",
+        "Grenada",
+        "Guatemala",
+        "Guinea",
+        "Guinea-Bissau",
+        "Guyana",
+        "Haiti",
+        "Honduras",
+        "Hungary",
+        "Iceland",
+        "India",
+        "Indonesia",
+        "Iran",
+        "Iraq",
+        "Ireland {Republic}",
+        "Israel",
+        "Italy",
+        "Ivory Coast",
+        "Jamaica",
+        "Japan",
+        "Jordan",
+        "Kazakhstan",
+        "Kenya",
+        "Kiribati",
+        "Korea North",
+        "Korea South",
+        "Kosovo",
+        "Kuwait",
+        "Kyrgyzstan",
+        "Laos",
+        "Latvia",
+        "Lebanon",
+        "Lesotho",
+        "Liberia",
+        "Libya",
+        "Liechtenstein",
+        "Lithuania",
+        "Luxembourg",
+        "Macedonia",
+        "Madagascar",
+        "Malawi",
+        "Malaysia",
+        "Maldives",
+        "Mali",
+        "Malta",
+        "Marshall Islands",
+        "Mauritania",
+        "Mauritius",
+        "Mexico",
+        "Micronesia",
+        "Moldova",
+        "Monaco",
+        "Mongolia",
+        "Montenegro",
+        "Morocco",
+        "Mozambique",
+        "Myanmar, {Burma}",
+        "Namibia",
+        "Nauru",
+        "Nepal",
+        "Netherlands",
+        "New Zealand",
+        "Nicaragua",
+        "Niger",
+        "Nigeria",
+        "Norway",
+        "Oman",
+        "Pakistan",
+        "Palau",
+        "Panama",
+        "Papua New Guinea",
+        "Paraguay",
+        "Peru",
+        "Philippines",
+        "Poland",
+        "Portugal",
+        "Qatar",
+        "Romania",
+        "Russian Federation",
+        "Rwanda",
+        "St Kitts & Nevis",
+        "St Lucia",
+        "Saint Vincent & the Grenadines",
+        "Samoa",
+        "San Marino",
+        "Sao Tome & Principe",
+        "Saudi Arabia",
+        "Senegal",
+        "Serbia",
+        "Seychelles",
+        "Sierra Leone",
+        "Singapore",
+        "Slovakia",
+        "Slovenia",
+        "Solomon Islands",
+        "Somalia",
+        "South Africa",
+        "South Sudan",
+        "Spain",
+        "Sri Lanka",
+        "Sudan",
+        "Suriname",
+        "Swaziland",
+        "Sweden",
+        "Switzerland",
+        "Syria",
+        "Taiwan",
+        "Tajikistan",
+        "Tanzania",
+        "Thailand",
+        "Togo",
+        "Tonga",
+        "Trinidad & Tobago",
+        "Tunisia",
+        "Turkey",
+        "Turkmenistan",
+        "Tuvalu",
+        "Uganda",
+        "Ukraine",
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States",
+        "Uruguay",
+        "Uzbekistan",
+        "Vanuatu",
+        "Vatican City",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    "members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "startups"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "uuid": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "goals": {
+      "type": "richtext"
+    },
+    "achievements": {
+      "type": "richtext"
+    },
+    "accelerator_goals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::goal.goal",
+      "mappedBy": "startup"
+    },
+    "office_hours": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::office-hour.office-hour",
+      "mappedBy": "startup"
+    },
+    "pitch_rehearsals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pitch-rehearsal.pitch-rehearsal",
+      "mappedBy": "startup"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity",
+      "mappedBy": "startup"
+    },
+    "partner_startups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner-startup.partner-startup",
+      "mappedBy": "startup"
+    },
+    "investor_startups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-startup.investor-startup",
+      "mappedBy": "startup"
+    },
+    "mentorship_sessions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mentorship-session.mentorship-session",
+      "mappedBy": "startup"
+    },
+    "pitchDeck": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "financials": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "onePager": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cohort_applications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cohort-application.cohort-application",
+      "mappedBy": "startup"
+    },
+    "startup_cohorts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::startup-cohort.startup-cohort",
+      "mappedBy": "startup"
+    },
+    "cohort_forms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cohort-form.cohort-form",
+      "mappedBy": "startup"
+    },
+    "statistics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::statistic.statistic",
+      "mappedBy": "startup"
+    }
+  }
+}

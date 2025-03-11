@@ -1,0 +1,186 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::cohort-form.cohort-form",
+  "value": {
+    "uid": "api::cohort-form.cohort-form",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cohort": {
+        "edit": {
+          "label": "cohort",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "cohort",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "startup": {
+        "edit": {
+          "label": "startup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "startup",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "status": {
+        "edit": {
+          "label": "status",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "status",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "response": {
+        "edit": {
+          "label": "response",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "response",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "files": {
+        "edit": {
+          "label": "files",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "files",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "uuid": {
+        "edit": {
+          "label": "uuid",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "uuid",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "cohort",
+        "startup",
+        "status"
+      ],
+      "edit": [
+        [
+          {
+            "name": "cohort",
+            "size": 6
+          },
+          {
+            "name": "startup",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "status",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "response",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "files",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "uuid",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

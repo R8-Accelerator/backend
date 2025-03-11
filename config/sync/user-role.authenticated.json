@@ -1,0 +1,250 @@
+{
+  "name": "Startup",
+  "description": "Default role given to startup authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::accelerator-form.accelerator-form.find"
+    },
+    {
+      "action": "api::accelerator-form.accelerator-form.findOne"
+    },
+    {
+      "action": "api::accelerator.accelerator.create"
+    },
+    {
+      "action": "api::accelerator.accelerator.delete"
+    },
+    {
+      "action": "api::accelerator.accelerator.find"
+    },
+    {
+      "action": "api::accelerator.accelerator.findOne"
+    },
+    {
+      "action": "api::accelerator.accelerator.update"
+    },
+    {
+      "action": "api::activity.activity.create"
+    },
+    {
+      "action": "api::activity.activity.delete"
+    },
+    {
+      "action": "api::activity.activity.find"
+    },
+    {
+      "action": "api::activity.activity.findOne"
+    },
+    {
+      "action": "api::activity.activity.update"
+    },
+    {
+      "action": "api::cohort-application.cohort-application.create"
+    },
+    {
+      "action": "api::cohort-application.cohort-application.find"
+    },
+    {
+      "action": "api::cohort-application.cohort-application.findOne"
+    },
+    {
+      "action": "api::cohort-form.cohort-form.find"
+    },
+    {
+      "action": "api::cohort-form.cohort-form.findOne"
+    },
+    {
+      "action": "api::cohort-form.cohort-form.update"
+    },
+    {
+      "action": "api::cohort.cohort.create"
+    },
+    {
+      "action": "api::cohort.cohort.delete"
+    },
+    {
+      "action": "api::cohort.cohort.find"
+    },
+    {
+      "action": "api::cohort.cohort.findOne"
+    },
+    {
+      "action": "api::cohort.cohort.update"
+    },
+    {
+      "action": "api::goal.goal.create"
+    },
+    {
+      "action": "api::goal.goal.delete"
+    },
+    {
+      "action": "api::goal.goal.find"
+    },
+    {
+      "action": "api::goal.goal.findOne"
+    },
+    {
+      "action": "api::goal.goal.update"
+    },
+    {
+      "action": "api::invite-code.invite-code.create"
+    },
+    {
+      "action": "api::invite-code.invite-code.delete"
+    },
+    {
+      "action": "api::invite-code.invite-code.find"
+    },
+    {
+      "action": "api::invite-code.invite-code.findOne"
+    },
+    {
+      "action": "api::invite-code.invite-code.update"
+    },
+    {
+      "action": "api::mentorship-session.mentorship-session.create"
+    },
+    {
+      "action": "api::mentorship-session.mentorship-session.delete"
+    },
+    {
+      "action": "api::mentorship-session.mentorship-session.find"
+    },
+    {
+      "action": "api::mentorship-session.mentorship-session.findOne"
+    },
+    {
+      "action": "api::mentorship-session.mentorship-session.update"
+    },
+    {
+      "action": "api::office-hour.office-hour.create"
+    },
+    {
+      "action": "api::office-hour.office-hour.delete"
+    },
+    {
+      "action": "api::office-hour.office-hour.find"
+    },
+    {
+      "action": "api::office-hour.office-hour.findOne"
+    },
+    {
+      "action": "api::office-hour.office-hour.update"
+    },
+    {
+      "action": "api::partner.partner.create"
+    },
+    {
+      "action": "api::partner.partner.delete"
+    },
+    {
+      "action": "api::partner.partner.find"
+    },
+    {
+      "action": "api::partner.partner.findOne"
+    },
+    {
+      "action": "api::partner.partner.update"
+    },
+    {
+      "action": "api::resource.resource.create"
+    },
+    {
+      "action": "api::resource.resource.delete"
+    },
+    {
+      "action": "api::resource.resource.find"
+    },
+    {
+      "action": "api::resource.resource.findOne"
+    },
+    {
+      "action": "api::resource.resource.update"
+    },
+    {
+      "action": "api::social-account.social-account.create"
+    },
+    {
+      "action": "api::social-account.social-account.delete"
+    },
+    {
+      "action": "api::social-account.social-account.find"
+    },
+    {
+      "action": "api::social-account.social-account.findOne"
+    },
+    {
+      "action": "api::social-account.social-account.update"
+    },
+    {
+      "action": "api::startup-cohort.startup-cohort.find"
+    },
+    {
+      "action": "api::startup-cohort.startup-cohort.findOne"
+    },
+    {
+      "action": "api::startup.startup.create"
+    },
+    {
+      "action": "api::startup.startup.delete"
+    },
+    {
+      "action": "api::startup.startup.find"
+    },
+    {
+      "action": "api::startup.startup.findOne"
+    },
+    {
+      "action": "api::startup.startup.update"
+    },
+    {
+      "action": "plugin::content-type-builder.components.getComponent"
+    },
+    {
+      "action": "plugin::content-type-builder.components.getComponents"
+    },
+    {
+      "action": "plugin::content-type-builder.content-types.getContentType"
+    },
+    {
+      "action": "plugin::content-type-builder.content-types.getContentTypes"
+    },
+    {
+      "action": "plugin::upload.content-api.destroy"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
+      "action": "plugin::upload.content-api.upload"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.role.find"
+    },
+    {
+      "action": "plugin::users-permissions.role.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.user.count"
+    },
+    {
+      "action": "plugin::users-permissions.user.find"
+    },
+    {
+      "action": "plugin::users-permissions.user.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    },
+    {
+      "action": "plugin::users-permissions.user.update"
+    }
+  ]
+}

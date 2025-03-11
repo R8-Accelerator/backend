@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "office_hours",
+  "info": {
+    "singularName": "office-hour",
+    "pluralName": "office-hours",
+    "displayName": "Office hour",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "mentor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "office_hours"
+    },
+    "url": {
+      "type": "string"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "office_hours"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

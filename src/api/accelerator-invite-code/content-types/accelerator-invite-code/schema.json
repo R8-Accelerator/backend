@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accelerator_invite_codes",
+  "info": {
+    "singularName": "accelerator-invite-code",
+    "pluralName": "accelerator-invite-codes",
+    "displayName": "Accelerator invite code",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "acceleratorid": {
+      "type": "string"
+    },
+    "invitecode": {
+      "type": "string"
+    },
+    "accelerator": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::accelerator.accelerator",
+      "mappedBy": "accelerator_invite_code"
+    }
+  }
+}

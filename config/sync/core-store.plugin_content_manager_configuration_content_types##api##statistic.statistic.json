@@ -1,0 +1,258 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::statistic.statistic",
+  "value": {
+    "uid": "api::statistic.statistic",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "startup": {
+        "edit": {
+          "label": "startup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "startup",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cohort": {
+        "edit": {
+          "label": "cohort",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "cohort",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "date": {
+        "edit": {
+          "label": "date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "maturity_transition": {
+        "edit": {
+          "label": "maturity_transition",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "maturity_transition",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "clients": {
+        "edit": {
+          "label": "clients",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "clients",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "employees": {
+        "edit": {
+          "label": "employees",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "employees",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "funding": {
+        "edit": {
+          "label": "funding",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "funding",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "revenue": {
+        "edit": {
+          "label": "revenue",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "revenue",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cost": {
+        "edit": {
+          "label": "cost",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cost",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "geographic": {
+        "edit": {
+          "label": "geographic",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "geographic",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "startup",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "startup",
+            "size": 6
+          },
+          {
+            "name": "cohort",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "date",
+            "size": 4
+          },
+          {
+            "name": "maturity_transition",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "clients",
+            "size": 4
+          },
+          {
+            "name": "employees",
+            "size": 4
+          },
+          {
+            "name": "funding",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "revenue",
+            "size": 4
+          },
+          {
+            "name": "cost",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "geographic",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,158 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cohorts",
+  "info": {
+    "singularName": "cohort",
+    "pluralName": "cohorts",
+    "displayName": "Cohort",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "acceptingApplication": {
+      "type": "boolean"
+    },
+    "deadline": {
+      "type": "date"
+    },
+    "mentorship_sessions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mentorship-session.mentorship-session"
+    },
+    "office_hours": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::office-hour.office-hour"
+    },
+    "uuid": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "mentors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "cohorts"
+    },
+    "invite_code": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::invite-code.invite-code",
+      "inversedBy": "cohort"
+    },
+    "accelerator": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::accelerator.accelerator"
+    },
+    "archived": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sector": {
+      "type": "json"
+    },
+    "startdate": {
+      "type": "date"
+    },
+    "enddate": {
+      "type": "date"
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::partner.partner",
+      "mappedBy": "cohorts"
+    },
+    "investors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::investor.investor",
+      "mappedBy": "cohorts"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity",
+      "mappedBy": "cohort"
+    },
+    "expenses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expense.expense",
+      "mappedBy": "cohort"
+    },
+    "pitch_rehearsals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pitch-rehearsal.pitch-rehearsal",
+      "mappedBy": "cohort"
+    },
+    "cohort_perks": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::cohort-perk.cohort-perk",
+      "mappedBy": "cohorts"
+    },
+    "application_form": {
+      "type": "json"
+    },
+    "cohort_applications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cohort-application.cohort-application",
+      "mappedBy": "cohort"
+    },
+    "startup_cohorts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::startup-cohort.startup-cohort",
+      "mappedBy": "cohort"
+    },
+    "template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::template.template",
+      "mappedBy": "cohort"
+    },
+    "resources": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::resource.resource",
+      "mappedBy": "cohorts"
+    },
+    "cohort_forms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cohort-form.cohort-form",
+      "mappedBy": "cohort"
+    },
+    "stage": {
+      "type": "json"
+    },
+    "statistics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::statistic.statistic",
+      "mappedBy": "cohort"
+    }
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::startup.startup",
+  "value": {
+    "uid": "api::startup.startup",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "url": {
+        "edit": {
+          "label": "url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "overview": {
+        "edit": {
+          "label": "overview",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "overview",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "industry": {
+        "edit": {
+          "label": "industry",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "industry",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "stage": {
+        "edit": {
+          "label": "stage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "stage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "location": {
+        "edit": {
+          "label": "location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "members": {
+        "edit": {
+          "label": "members",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "members",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "owner": {
+        "edit": {
+          "label": "owner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "owner",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cover": {
+        "edit": {
+          "label": "cover",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cover",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "uuid": {
+        "edit": {
+          "label": "uuid",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "uuid",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "goals": {
+        "edit": {
+          "label": "goals",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "goals",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "achievements": {
+        "edit": {
+          "label": "achievements",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "achievements",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "accelerator_goals": {
+        "edit": {
+          "label": "accelerator_goals",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "goal"
+        },
+        "list": {
+          "label": "accelerator_goals",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "office_hours": {
+        "edit": {
+          "label": "office_hours",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "url"
+        },
+        "list": {
+          "label": "office_hours",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "pitch_rehearsals": {
+        "edit": {
+          "label": "pitch_rehearsals",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "notes"
+        },
+        "list": {
+          "label": "pitch_rehearsals",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "activities": {
+        "edit": {
+          "label": "activities",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "url"
+        },
+        "list": {
+          "label": "activities",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partner_startups": {
+        "edit": {
+          "label": "partner_startups",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "notes"
+        },
+        "list": {
+          "label": "partner_startups",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "investor_startups": {
+        "edit": {
+          "label": "investor_startups",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "notes"
+        },
+        "list": {
+          "label": "investor_startups",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "mentorship_sessions": {
+        "edit": {
+          "label": "mentorship_sessions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "url"
+        },
+        "list": {
+          "label": "mentorship_sessions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "pitchDeck": {
+        "edit": {
+          "label": "pitchDeck",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "pitchDeck",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "financials": {
+        "edit": {
+          "label": "financials",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "financials",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "onePager": {
+        "edit": {
+          "label": "onePager",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "onePager",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohort_applications": {
+        "edit": {
+          "label": "cohort_applications",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "cohort_applications",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "startup_cohorts": {
+        "edit": {
+          "label": "startup_cohorts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "startup_cohorts",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohort_forms": {
+        "edit": {
+          "label": "cohort_forms",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "cohort_forms",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "statistics": {
+        "edit": {
+          "label": "statistics",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "id"
+        },
+        "list": {
+          "label": "statistics",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "url",
+        "createdAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "url",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "overview",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "industry",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "stage",
+            "size": 6
+          },
+          {
+            "name": "location",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "members",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "owner",
+            "size": 6
+          },
+          {
+            "name": "logo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cover",
+            "size": 6
+          },
+          {
+            "name": "uuid",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "goals",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "achievements",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "accelerator_goals",
+            "size": 6
+          },
+          {
+            "name": "office_hours",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "pitch_rehearsals",
+            "size": 6
+          },
+          {
+            "name": "activities",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "partner_startups",
+            "size": 6
+          },
+          {
+            "name": "investor_startups",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mentorship_sessions",
+            "size": 6
+          },
+          {
+            "name": "pitchDeck",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "financials",
+            "size": 6
+          },
+          {
+            "name": "onePager",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cohort_applications",
+            "size": 6
+          },
+          {
+            "name": "startup_cohorts",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cohort_forms",
+            "size": 6
+          },
+          {
+            "name": "statistics",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

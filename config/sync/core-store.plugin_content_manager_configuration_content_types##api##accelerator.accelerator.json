@@ -1,0 +1,646 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::accelerator.accelerator",
+  "value": {
+    "uid": "api::accelerator.accelerator",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "url": {
+        "edit": {
+          "label": "url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "phone": {
+        "edit": {
+          "label": "phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "overview": {
+        "edit": {
+          "label": "overview",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "overview",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "benefits": {
+        "edit": {
+          "label": "benefits",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "benefits",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "news": {
+        "edit": {
+          "label": "news",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "news",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "perks": {
+        "edit": {
+          "label": "perks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "perks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "industry": {
+        "edit": {
+          "label": "industry",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "industry",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "stage": {
+        "edit": {
+          "label": "stage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "stage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "location": {
+        "edit": {
+          "label": "location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "alumni": {
+        "edit": {
+          "label": "alumni",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "alumni",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cover": {
+        "edit": {
+          "label": "cover",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cover",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "uuid": {
+        "edit": {
+          "label": "uuid",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "uuid",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mentors": {
+        "edit": {
+          "label": "mentors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "mentors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohorts": {
+        "edit": {
+          "label": "cohorts",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "cohorts",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "owner": {
+        "edit": {
+          "label": "owner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "owner",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "team": {
+        "edit": {
+          "label": "team",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "team",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partner": {
+        "edit": {
+          "label": "partner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "partner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partners": {
+        "edit": {
+          "label": "partners",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "partners",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "investors": {
+        "edit": {
+          "label": "investors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "investors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cohort_perks": {
+        "edit": {
+          "label": "cohort_perks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "companyName"
+        },
+        "list": {
+          "label": "cohort_perks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "default_application_form": {
+        "edit": {
+          "label": "default_application_form",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "default_application_form",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "members": {
+        "edit": {
+          "label": "members",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "username"
+        },
+        "list": {
+          "label": "members",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "templates": {
+        "edit": {
+          "label": "templates",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "templates",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "accelerator_invite_code": {
+        "edit": {
+          "label": "accelerator_invite_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "acceleratorid"
+        },
+        "list": {
+          "label": "accelerator_invite_code",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accelerator_forms": {
+        "edit": {
+          "label": "accelerator_forms",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "accelerator_forms",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "accelerator_join_code": {
+        "edit": {
+          "label": "accelerator_join_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "joincode"
+        },
+        "list": {
+          "label": "accelerator_join_code",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "createdAt",
+        "members"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "url",
+            "size": 6
+          },
+          {
+            "name": "email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "phone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "overview",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "benefits",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "news",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "perks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "industry",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "stage",
+            "size": 6
+          },
+          {
+            "name": "location",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "alumni",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "logo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cover",
+            "size": 6
+          },
+          {
+            "name": "uuid",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mentors",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cohorts",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "team",
+            "size": 6
+          },
+          {
+            "name": "partners",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "investors",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cohort_perks",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "partner",
+            "size": 6
+          },
+          {
+            "name": "members",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "templates",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "default_application_form",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "accelerator_invite_code",
+            "size": 6
+          },
+          {
+            "name": "accelerator_forms",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "owner",
+            "size": 6
+          },
+          {
+            "name": "accelerator_join_code",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

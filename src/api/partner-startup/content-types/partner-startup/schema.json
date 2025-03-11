@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_startups",
+  "info": {
+    "singularName": "partner-startup",
+    "pluralName": "partner-startups",
+    "displayName": "Partner-Startup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::partner.partner",
+      "inversedBy": "partner_startups"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "partner_startups"
+    }
+  }
+}

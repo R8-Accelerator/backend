@@ -1,0 +1,124 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::option.option",
+  "value": {
+    "uid": "api::option.option",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "domain",
+      "defaultSortBy": "domain",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "domain": {
+        "edit": {
+          "label": "domain",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "domain",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "admin_email": {
+        "edit": {
+          "label": "admin_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "admin_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "default_application_form": {
+        "edit": {
+          "label": "default_application_form",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "default_application_form",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "domain",
+        "admin_email",
+        "createdAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "domain",
+            "size": 6
+          },
+          {
+            "name": "admin_email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "default_application_form",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cohort_applications",
+  "info": {
+    "singularName": "cohort-application",
+    "pluralName": "cohort-applications",
+    "displayName": "Cohort-application",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startup_response": {
+      "type": "json"
+    },
+    "application_status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "accepted",
+        "rejected",
+        "moreinfo"
+      ],
+      "default": "pending"
+    },
+    "cohort": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "cohort_applications"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "cohort_applications"
+    },
+    "files": {
+      "type": "json"
+    }
+  }
+}

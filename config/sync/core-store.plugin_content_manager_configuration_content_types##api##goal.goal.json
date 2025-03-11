@@ -1,0 +1,204 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::goal.goal",
+  "value": {
+    "uid": "api::goal.goal",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "goal",
+      "defaultSortBy": "goal",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "goal": {
+        "edit": {
+          "label": "goal",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "goal",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "comments": {
+        "edit": {
+          "label": "comments",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "comments",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "achieved": {
+        "edit": {
+          "label": "achieved",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "achieved",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "startup": {
+        "edit": {
+          "label": "startup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "startup",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accelerator": {
+        "edit": {
+          "label": "accelerator",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "accelerator",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "date": {
+        "edit": {
+          "label": "date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "goal",
+        "description",
+        "comments"
+      ],
+      "edit": [
+        [
+          {
+            "name": "date",
+            "size": 4
+          },
+          {
+            "name": "goal",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "comments",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "startup",
+            "size": 6
+          },
+          {
+            "name": "accelerator",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "achieved",
+            "size": 4
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

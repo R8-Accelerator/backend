@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expenses",
+  "info": {
+    "singularName": "expense",
+    "pluralName": "expenses",
+    "displayName": "Expense",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "tax": {
+      "type": "decimal"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "cohort": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "expenses"
+    },
+    "personResponsible": {
+      "type": "string"
+    },
+    "invoice": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Paid",
+        "Rejected"
+      ],
+      "default": "Pending"
+    }
+  }
+}

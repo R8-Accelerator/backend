@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templates",
+  "info": {
+    "singularName": "template",
+    "pluralName": "templates",
+    "displayName": "Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cohort": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "template"
+    },
+    "startups": {
+      "type": "boolean",
+      "default": true
+    },
+    "partners": {
+      "type": "boolean",
+      "default": true
+    },
+    "pitching_practice": {
+      "type": "boolean",
+      "default": true
+    },
+    "mentors": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "investors": {
+      "type": "boolean",
+      "default": true
+    },
+    "activities": {
+      "type": "boolean",
+      "default": true
+    },
+    "cohort_perks": {
+      "type": "boolean",
+      "default": true
+    },
+    "community_chest": {
+      "type": "boolean",
+      "default": true
+    },
+    "forms": {
+      "type": "boolean",
+      "default": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "accelerator": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::accelerator.accelerator",
+      "inversedBy": "templates"
+    }
+  }
+}

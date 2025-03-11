@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cohort_forms",
+  "info": {
+    "singularName": "cohort-form",
+    "pluralName": "cohort-forms",
+    "displayName": "Cohort-Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cohort": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cohort.cohort",
+      "inversedBy": "cohort_forms"
+    },
+    "startup": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startup.startup",
+      "inversedBy": "cohort_forms"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "filled"
+      ],
+      "default": "pending"
+    },
+    "response": {
+      "type": "json"
+    },
+    "files": {
+      "type": "json"
+    },
+    "uuid": {
+      "type": "uid"
+    }
+  }
+}

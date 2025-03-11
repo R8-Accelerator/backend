@@ -1,0 +1,125 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::accelerator-invite-code.accelerator-invite-code",
+  "value": {
+    "uid": "api::accelerator-invite-code.accelerator-invite-code",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "acceleratorid",
+      "defaultSortBy": "acceleratorid",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "acceleratorid": {
+        "edit": {
+          "label": "acceleratorid",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "acceleratorid",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "invitecode": {
+        "edit": {
+          "label": "invitecode",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "invitecode",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accelerator": {
+        "edit": {
+          "label": "accelerator",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "accelerator",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "acceleratorid",
+        "invitecode",
+        "accelerator"
+      ],
+      "edit": [
+        [
+          {
+            "name": "acceleratorid",
+            "size": 6
+          },
+          {
+            "name": "invitecode",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "accelerator",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

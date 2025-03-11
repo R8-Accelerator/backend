@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "options",
+  "info": {
+    "singularName": "option",
+    "pluralName": "options",
+    "displayName": "Option",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "domain": {
+      "type": "string"
+    },
+    "admin_email": {
+      "type": "email"
+    },
+    "default_application_form": {
+      "type": "json"
+    }
+  }
+}

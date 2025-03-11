@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accelerator_forms",
+  "info": {
+    "singularName": "accelerator-form",
+    "pluralName": "accelerator-forms",
+    "displayName": "Accelerator Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "accelerator": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::accelerator.accelerator",
+      "inversedBy": "accelerator_forms"
+    },
+    "form": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "uid"
+    }
+  }
+}
