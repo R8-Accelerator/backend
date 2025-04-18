@@ -1,9 +1,6 @@
 'use strict';
 
-/**
- * `isOwner` policy
- * Checks if the user is accessing their own data
- */
+// Policy to check if a user is only accessing their own data
 module.exports = async (ctx, config, { strapi }) => {
   // Get the current authenticated user
   const user = ctx.state.user;

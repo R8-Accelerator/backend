@@ -29,9 +29,14 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  // Add the own-data-only plugin configuration here
-  'own-data-only': {
-    enabled: true,
-    resolve: './src/plugins/strapi-plugin-own-data-only'
+'users-permissions': {
+    config: {
+      jwt: {
+        expiresIn: '7d',
+      },
+      register: {
+        allowedFields: ['role'],
+      },
+    },
   },
 });
