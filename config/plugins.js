@@ -29,4 +29,9 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  // Add the own-data-only plugin configuration here
+  'own-data-only': {
+    enabled: true,
+    resolve: './src/plugins/strapi-plugin-own-data-only'
+  },
 });
