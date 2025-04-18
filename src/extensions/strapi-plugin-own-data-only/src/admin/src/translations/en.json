@@ -1,0 +1,11 @@
+{
+  "en": {
+    "own-data-only.plugin.name": "Own Data Only",
+    "own-data-only.plugin.description": "Restrict users to only access their own data",
+    "own-data-only.permission.ownDataOnly": "Own data only",
+    "own-data-only.homepage.title": "How to use the Own Data Only plugin",
+    "own-data-only.homepage.description": "This plugin adds an \"Own Data Only\" checkbox to the permissions UI in the Strapi admin panel.",
+    "own-data-only.homepage.instructions": "To use this feature, go to Settings > Roles, select a role, and you will see the \"Own Data Only\" checkbox next to the standard permissions (find, findOne, update, delete).",
+    "own-data-only.homepage.explanation": "When enabled, users with this role will only be able to access, modify, or delete their own data."
+  }
+}

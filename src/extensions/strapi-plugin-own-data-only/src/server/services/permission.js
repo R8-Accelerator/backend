@@ -1,8 +1,9 @@
 'use strict';
 
-// Service to extend the permission service with own data only functionality
 module.exports = ({ strapi }) => ({
-  // Extend the permission service to handle the ownDataOnly field
+  /**
+   * Extend the permission service to handle the ownDataOnly field
+   */
   async updatePermission(params) {
     const { role, action, controller, plugin, ownDataOnly } = params;
     
@@ -36,7 +37,9 @@ module.exports = ({ strapi }) => ({
     });
   },
   
-  // Get all permissions for a role with the ownDataOnly field
+  /**
+   * Get all permissions for a role with the ownDataOnly field
+   */
   async getPermissions(params) {
     const { role } = params;
     
