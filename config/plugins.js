@@ -41,6 +41,6 @@ module.exports = ({ env }) => ({
   },
   'own-data-only': {
        enabled: true,
-       resolve: './src/plugins/strapi-plugin-own-data-only'
+       resolve: './src/extensions/strapi-plugin-own-data-only'
      },
 });
